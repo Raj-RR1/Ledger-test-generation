@@ -22,7 +22,7 @@ let mut part_label;
 
 if total_parts <= 1 {
    part_label="".to_string(); 
-   output.push(format!("{} | {} {} : {}",index,argument_name,part_label,argument_value));
+   output.push(format!("{} | {}{} : {}",index,argument_name,part_label,argument_value));
 }
 else{
 
